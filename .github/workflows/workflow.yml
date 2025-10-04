@@ -1,4 +1,4 @@
-name: Run tests for lesson 8
+name: Run password function checker
 
 on:
   pull_request:
@@ -25,4 +25,4 @@ jobs:
         run: npm install
 
       - name: Run tests
-        run: npm run test-url
+        run: npm run test-password
