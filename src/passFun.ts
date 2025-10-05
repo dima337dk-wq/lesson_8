@@ -14,7 +14,8 @@ export function calculatePasswordStrength(password: string): string {
 // Determine password strength level based on strength score
     if (strength <= 2) {
         return "Very Weak";
-    } else if (strength === 3) {return "Weak";
+    } else if (strength === 3) {
+        return "Weak";
     } else if (strength === 4) {
         return "Moderate";
     } else if (strength >= 5) {
